@@ -52,7 +52,8 @@ const Grid = () => {
                         {row.map((value, colIndex) => (
                             <input
                                 key={colIndex}
-                                type="number"
+                                type="text"
+                                inputmode="numeric"
                                 value={value}
                                 onChange={(e) => handleInputChange(rowIndex, colIndex, e.target.value)}
                                 style={{
