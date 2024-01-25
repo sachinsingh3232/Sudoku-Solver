@@ -19,7 +19,10 @@ const Grid = () => {
             for (let j = 0; j < gridValues[0].length; j++) {
                 if (gridValues[i][j] !== '') {
                     empty = false;
-                    break;
+                }
+                if(gridValues[i][j] !== '' && (gridValues[i][j]<0 || gridValues[i][j]>9)){
+                    setValid(false);
+                    return;
                 }
             }
         }
