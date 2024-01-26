@@ -5,8 +5,8 @@
   width: 33px;
   height: 33px;
   margin: 2px;
-  textAlign: center;
-  backgroundColor:"#d93939";
-  fontSize:1rem;
-  fontWeight:600;
+  text-align: center;
+  background-color:"#d93939";
+  font-size:1rem;
+  font-weight:600;
 }
