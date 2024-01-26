@@ -1,1 +1,13 @@
 
+.grid{
+  width:"405px";
+}
+.cell{
+  width: '33px',
+                        height: '33px',
+                                    margin: '2px',
+                                    textAlign: 'center',
+                                    backgroundColor:"#d93939",
+                                    fontSize:"1rem",
+                                    fontWeight:"600"
+}
