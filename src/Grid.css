@@ -10,3 +10,17 @@
   font-size:1rem;
   font-weight:600;
 }
+@media only screen and (max-width: 600px) {
+.grid{
+  width:360px;
+}
+.cell{
+  width: 38px;
+  height: 38px;
+/*   margin: 2px; */
+/*   text-align: center;
+  background-color:#d93939;
+  font-size:1rem;
+  font-weight:600; */
+}
+}
