@@ -44,7 +44,7 @@ const Grid = () => {
     }
 
     return (
-        <div style={{width:"405px"}}>
+        <div className='grid'>
             {!valid && <h3 style={{ color: "red" }}>Invalid Input</h3>}
             <div style={{width:"100%", border: "3px solid black", borderRadius: "5px" }}>
                 {gridValues.map((row, rowIndex) => (
@@ -55,15 +55,7 @@ const Grid = () => {
                                 type="number"
                                 value={value}
                                 onChange={(e) => handleInputChange(rowIndex, colIndex, e.target.value)}
-                                style={{
-                                    width: '33px',
-                                    height: '33px',
-                                    margin: '2px',
-                                    textAlign: 'center',
-                                    backgroundColor:"#d93939",
-                                    fontSize:"1rem",
-                                    fontWeight:"600"
-                                }}
+                                className='cell'
                             />
                         ))}
                     </div>
