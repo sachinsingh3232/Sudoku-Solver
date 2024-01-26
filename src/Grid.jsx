@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './grid.css';
+import './Grid.css';
 import { isValidSudoku, solveSudoku } from './Helper/functions';
 const Grid = () => {
     // State to store the values of each input
