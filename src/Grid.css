@@ -12,11 +12,11 @@
 }
 @media only screen and (max-width: 600px) {
 .grid{
-  width:360px;
+  width:358px;
 }
 .cell{
-  width: 28px;
-  height: 28px;
+  width: 27px;
+  height: 27px;
 /*   margin: 2px; */
 /*   text-align: center;
   background-color:#d93939;
